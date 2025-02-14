@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" width="100" height="100">
+  <!-- Outer Circle -->
+  <circle cx="50" cy="50" r="48" fill="#0F172A" stroke="#387494" stroke-width="4" />
+
+  <!-- Stylized Letter A -->
+  <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="#387494" font-size="40" font-family="Arial" font-weight="bold">A</text>
+</svg>

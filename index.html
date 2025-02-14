@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Abdelfattah Allam's personal website. A Computer and Systems Engineering student at Helwan University with a focus on software development, networking, and system optimization. Abdelfattah is gaining hands-on experience through projects and internships, with a strong interest in applying theoretical knowledge to real-world challenges." />
+  <meta name="keywords" content="portfolio, software development, engineering, networking" />
+  <meta name="author" content="Abdelfattah Allam" />
+  <title>Abdelfattah Allam</title>
+  <link rel="icon" href="logo.svg">
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="theme-wrapper">
+    <nav aria-label="Main Navigation">
+      <div class="container">
+        <a href="#hero" class="nav-logo" title="Abdelfattah Allam">Abdelfattah Allam</a>
+        <input type="checkbox" id="nav-toggle" aria-label="Toggle navigation" />
+        <label for="nav-toggle" class="nav-toggle-label" aria-label="Toggle navigation">
+          <span></span>
+        </label>
+        <ul class="nav-links">
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#education">Education</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <header class="hero" id="hero">
+      <div class="hero-content">
+        <h1>Abdelfattah Allam</h1>
+        <p>Computer and Systems Engineering Student</p>
+        <a href="/Resume.pdf" class="btn">Download Resume</a>
+        <div class="hero-social">
+          <a href="https://www.linkedin.com/in/abdelfattahallam" target="_blank" aria-label="LinkedIn Profile">
+            <img src="linkedin-logo.svg" alt="LinkedIn Logo" />
+          </a>
+          <a href="mailto:abdelfattah.allam5@gmail.com" target="_blank" aria-label="Email">
+            <img src="email.svg" alt="Email Icon" />
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <section id="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I am Abdelfattah Allam, currently pursuing a Bachelor's degree in Computer and Systems Engineering at
+          Helwan University. Throughout my academic journey, I have gained a strong foundation in software development, networking, and hardware simulation through both coursework and practical experience.
+        </p>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="container">
+        <h2>Experience</h2>
+        <div class="experience-wrapper">
+          <div class="experience-item">
+            <div class="experience-left">
+              <img src="information-technology-institute.svg" alt="Information Technology Institute Logo"
+                class="company-logo" />
+              <p class="date-range">
+                <time datetime="2024-07">Jul 2024</time>
+              </p>
+              <p class="job-title">Summer Trainee</p>
+            </div>
+            <div class="experience-right">
+              <h3>Information Technology Institute</h3>
+              <ul>
+                <li>
+                  Developed a solid understanding of network fundamentals, including IP addressing, subnetting, VLANs, and routing protocols (RIP, OSPF).
+                </li>
+                <li>
+                  Gained hands-on experience in advanced networking technologies, including VPNs, NAT, QoS, and network monitoring tools such as Wireshark.
+                </li>
+                <li>
+                  Developed foundational knowledge in cybersecurity and ethical hacking, utilizing tools like Nmap and Metasploit.
+                </li>
+                <li>
+                  Contributed to firewall configuration and management, enhancing overall network security.                </li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="experience-item">
+            <div class="experience-left">
+              <img src="ezz-steel.svg" alt="Ezz Steel Logo" class="company-logo" />
+              <p class="date-range">
+                <time datetime="2023-09">Sep 2023</time>
+              </p>
+              <p class="job-title">Engineering Intern</p>
+            </div>
+            <div class="experience-right">
+              <h3>Ezz Steel</h3>
+              <ul>
+                <li>
+                  Gained hands-on experience with basic networking concepts and configurations.
+                </li>
+                <li>
+                  Applied networking skills in real-world environments while working with virtualization platforms.
+                </li>
+                <li>
+                  Explored firewall utilization for network security and threat mitigation.
+                </li>
+                <li>
+                  Assisted in maintaining and managing Dell servers.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="education">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="education-item">
+          <div class="edu-left">
+            <img src="helwan-university-logo.svg" alt="Helwan University Logo" class="edu-logo" />
+          </div>
+          <div class="edu-middle">
+            <p class="grad-date">
+              <time datetime="2021-09">Sep 2021</time> – <time datetime="2026-08">Aug 2026</time>
+            </p>
+            <p class="faculty">Faculty of Engineering</p>
+          </div>
+          <div class="edu-right">
+            <p class="major">Computer and Systems Engineering</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
